@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Academic</title>
+    <link>https://example.com/post/index.xml</link>
+    <description>Recent content in Posts on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Your Name</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>https://example.com/post/about/</link>
+      <pubDate>Sat, 18 Mar 2017 15:52:16 +0000</pubDate>
+      
+      <guid>https://example.com/post/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;this-is-an-h2-headline&#34;&gt;This is an H2 headline&lt;/h2&gt;
+
+&lt;h3 id=&#34;peace-of-mind-produces-right-values-right-values-produce-right-thoughts-right-thoughts-produce-right-actions-and-right-actions-produce-work-which-will-be-a-material-reflection-for-others-to-see-of-the-serenity-at-the-center-of-it-all&#34;&gt;“Peace of mind produces right values, right values produce right thoughts. Right thoughts produce right actions and right actions produce work which will be a material reflection for others to see of the serenity at the center of it all.”&lt;/h3&gt;
+
+&lt;h3 id=&#34;robert-m-pirsig-zen-and-the-art-of-motorcycle-maintenance&#34;&gt;― Robert M. Pirsig, Zen and the Art of Motorcycle Maintenance&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting started with the Academic framework for Hugo</title>
+      <link>https://example.com/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/getting-started/</guid>
+      <description>
+
+&lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
+
+&lt;p&gt;Key features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
+&lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
+&lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;https://example.com/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
+&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
+&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;Easy to customize&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/#installing-hugo&#34; target=&#34;_blank&#34;&gt;Install Hugo&lt;/a&gt; and create a new website by typing the following commands in your &lt;em&gt;Terminal&lt;/em&gt; or &lt;em&gt;Command Prompt&lt;/em&gt; app:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new site my_website
+cd my_website
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install Academic with &lt;a href=&#34;https://help.github.com/articles/set-up-git/&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/gcushen/hugo-academic.git themes/academic
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or alternatively, &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;download Academic&lt;/a&gt; and extract it into a &lt;code&gt;themes/academic&lt;/code&gt; folder within your Hugo website.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you are creating a new website, copy the contents of the &lt;code&gt;exampleSite&lt;/code&gt; folder to your website root folder, overwriting existing files if necessary. The &lt;code&gt;exampleSite&lt;/code&gt; folder contains an example config file and content to help you get started.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cp -av themes/academic/exampleSite/* .
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Start the Hugo server from your website root folder:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server --watch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you can go to &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website should appear.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Customize your website - refer to the &lt;em&gt;Getting Started&lt;/em&gt; section below&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt;. Or alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as your university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;Assuming you created a new website with the example content following the installation steps above, this section explores just a few more steps in order to customize it.&lt;/p&gt;
+
+&lt;h3 id=&#34;core-parameters&#34;&gt;Core parameters&lt;/h3&gt;
+
+&lt;p&gt;The core parameters for the website can be edited in the &lt;code&gt;config.toml&lt;/code&gt; configuration file:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;baseurl&lt;/code&gt; to your website URL (we recommend &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;GitHub Pages&lt;/a&gt; for free hosting)&lt;/li&gt;
+&lt;li&gt;Set &lt;code&gt;title&lt;/code&gt; to your desired website title such as your name&lt;/li&gt;
+&lt;li&gt;The example Disqus commenting variable should be cleared (e.g. &lt;code&gt;disqusShortname = &amp;quot;&amp;quot;&lt;/code&gt;) or set to your own &lt;a href=&#34;https://disqus.com/&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; shortname to enable commenting&lt;/li&gt;
+&lt;li&gt;Edit your details under &lt;code&gt;[params]&lt;/code&gt;; these will be displayed mainly in the homepage &lt;em&gt;about&lt;/em&gt; and &lt;em&gt;contact&lt;/em&gt; widgets (if used). To disable a contact field, simply clear the value to &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Place a square cropped portrait photo named &lt;code&gt;portrait.jpg&lt;/code&gt; into the &lt;code&gt;static/img/&lt;/code&gt; folder, overwriting any defaults. Alternatively, you can edit the &lt;code&gt;avatar&lt;/code&gt; filepath to point to a different image name or clear the value to disable the avatar feature.&lt;/li&gt;
+&lt;li&gt;To enable LaTeX math for your site, set &lt;code&gt;math = true&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Social/academic networking links are defined as multiples of &lt;code&gt;[[params.social]]&lt;/code&gt;. They can be created or deleted as necessary.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;introduce-yourself&#34;&gt;Introduce yourself&lt;/h3&gt;
+
+&lt;p&gt;Edit your biography in the &lt;em&gt;about&lt;/em&gt; widget &lt;code&gt;content/home/about.md&lt;/code&gt; that you copied across from the &lt;code&gt;themes/academic/exampleSite/&lt;/code&gt; folder. The research interests and qualifications are stored as &lt;code&gt;interests&lt;/code&gt; and &lt;code&gt;education&lt;/code&gt; variables. The academic qualifications are defined as multiples of &lt;code&gt;[[education.courses]]&lt;/code&gt; and can be created or deleted as necessary. It&amp;rsquo;s possible to completely hide the interests and education lists by deleting their respective variables.&lt;/p&gt;
+
+&lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
+
+&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://example.com/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
+
+&lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
+
+&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://example.com/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
+
+&lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://example.com/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;customization-upgrading&#34;&gt;Customization &amp;amp; Upgrading&lt;/h3&gt;
+
+&lt;p&gt;Continue reading below for advanced customization tips and instructions for keeping the framework up-to-date with any improvements that become available.&lt;/p&gt;
+
+&lt;h2 id=&#34;advanced-customization&#34;&gt;Advanced customization&lt;/h2&gt;
+
+&lt;p&gt;It is possible to carry out many customizations without touching any files in &lt;code&gt;themes/academic&lt;/code&gt;, making it easier to upgrade the framework in the future.&lt;/p&gt;
+
+&lt;h3 id=&#34;navigation-menu&#34;&gt;Navigation menu&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;[[menu.main]]&lt;/code&gt; entries towards the bottom of &lt;code&gt;config.toml&lt;/code&gt; define the navigation links at the top of the website. They can be added or removed as desired.&lt;/p&gt;
+
+&lt;p&gt;To create a dropdown sub-menu, add &lt;code&gt;identifier = &amp;quot;something&amp;quot;&lt;/code&gt; to the parent item and &lt;code&gt;parent = &amp;quot;something&amp;quot;&lt;/code&gt; to the child item.&lt;/p&gt;
+
+&lt;h3 id=&#34;website-icon&#34;&gt;Website icon&lt;/h3&gt;
+
+&lt;p&gt;Save your main icon and mobile icon as square PNG images named &lt;code&gt;icon.png&lt;/code&gt; and &lt;code&gt;apple-touch-icon.png&lt;/code&gt;, respectively. Place them in your root &lt;code&gt;static/img/&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;h3 id=&#34;theme-color-css&#34;&gt;Theme color (CSS)&lt;/h3&gt;
+
+&lt;p&gt;You can link custom CSS assets (relative to your root &lt;code&gt;static/css&lt;/code&gt;) from your &lt;code&gt;config.toml&lt;/code&gt; using &lt;code&gt;custom_css = [&amp;quot;custom.css&amp;quot;]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, lets make a green theme. First, define &lt;code&gt;custom_css = [&amp;quot;green.css&amp;quot;]&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. Then we can download the example &lt;a href=&#34;https://gist.github.com/gcushen/d5525a4506b9ccf83f2bce592a895495&#34; target=&#34;_blank&#34;&gt;green theme&lt;/a&gt; and save it as &lt;code&gt;static/css/green.css&lt;/code&gt;, relative to your website root (i.e. &lt;strong&gt;not&lt;/strong&gt; in the &lt;code&gt;themes&lt;/code&gt; directory).&lt;/p&gt;
+
+&lt;h3 id=&#34;analytics&#34;&gt;Analytics&lt;/h3&gt;
+
+&lt;p&gt;To enable &lt;a href=&#34;http://www.google.com/analytics&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, add your tracking code in &lt;code&gt;config.toml&lt;/code&gt; similarly to &lt;code&gt;googleAnalytics = &amp;quot;UA-12345678-9&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;third-party-and-local-scripts-js&#34;&gt;Third party and local scripts (JS)&lt;/h3&gt;
+
+&lt;p&gt;To add a third party script, create a file named &lt;code&gt;head_custom.html&lt;/code&gt; in a &lt;code&gt;layouts/partials/&lt;/code&gt; folder at the root of your website (not in the &lt;code&gt;themes&lt;/code&gt; folder). Any HTML code added to this file will be included within your website&amp;rsquo;s &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. Therefore, it&amp;rsquo;s suitable for adding custom metadata or third party scripts specified with the &lt;em&gt;async&lt;/em&gt; attribute.&lt;/p&gt;
+
+&lt;p&gt;Whereas for your own local scripts, you can link your local JS assets (relative to your root &lt;code&gt;static/js&lt;/code&gt;) from your &lt;code&gt;config.toml&lt;/code&gt; using &lt;code&gt;custom_js  = [&amp;quot;custom.js&amp;quot;]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;language-and-translation&#34;&gt;Language and translation&lt;/h3&gt;
+
+&lt;p&gt;The interface text (e.g. buttons) is stored in language files which are collected from Academic&amp;rsquo;s &lt;code&gt;themes/academic/i18n/&lt;/code&gt; folder, as well as an &lt;code&gt;i18n/&lt;/code&gt; folder at the root of your project.&lt;/p&gt;
+
+&lt;p&gt;To edit the interface text, copy &lt;code&gt;themes/academic/i18n/en.yaml&lt;/code&gt; to &lt;code&gt;i18n/en.yaml&lt;/code&gt; (relative to the root of your website). Open the new file and make any desired changes to the text appearing after &lt;code&gt;translation:&lt;/code&gt;. Note that the language files are formatted in YAML syntax.&lt;/p&gt;
+
+&lt;p&gt;To translate the interface text to another language, follow the above instructions, but name the new file in the form &lt;code&gt;i18n/X.yaml&lt;/code&gt; where &lt;code&gt;X&lt;/code&gt; is the appropriate &lt;a href=&#34;http://www.w3schools.com/tags/ref_language_codes.asp&#34; target=&#34;_blank&#34;&gt;ISO/RFC5646 language identifier&lt;/a&gt; for the translation. Then follow the brief instructions in the &lt;em&gt;Language&lt;/em&gt; section at the bottom of your &lt;code&gt;config.toml&lt;/code&gt;. To change the default language used by Academic, set &lt;code&gt;defaultContentLanguage&lt;/code&gt; to the desired language identifier in your configuration file.&lt;/p&gt;
+
+&lt;p&gt;To translate the navigation bar, you can edit the default &lt;code&gt;[[menu.main]]&lt;/code&gt; instances in &lt;code&gt;config.toml&lt;/code&gt;. However, for a multilingual site, you will need to duplicate all of the &lt;code&gt;[[menu.main]]&lt;/code&gt; instances and rename the new instances from &lt;code&gt;[[menu.main]]&lt;/code&gt; to &lt;code&gt;[[languages.X.menu.main]]&lt;/code&gt;, where &lt;code&gt;X&lt;/code&gt; is the language identifier (e.g. &lt;code&gt;[[languages.zh.menu.main]]&lt;/code&gt; for Simplified Chinese). Thus, the navigation bar can be displayed in multiple languages.&lt;/p&gt;
+
+&lt;p&gt;To translate a content file in your &lt;code&gt;content/&lt;/code&gt; folder into another language, copy the file to &lt;code&gt;filename.X.md&lt;/code&gt; where &lt;code&gt;filename&lt;/code&gt; is your existing filename and &lt;code&gt;X&lt;/code&gt; is the appropriate &lt;a href=&#34;http://www.w3schools.com/tags/ref_language_codes.asp&#34; target=&#34;_blank&#34;&gt;ISO/RFC5646 language identifier&lt;/a&gt; for the translation. Then translate the content in the new file to the specified language.&lt;/p&gt;
+
+&lt;p&gt;For further details on Hugo&amp;rsquo;s internationalization and multilingual features, refer to the &lt;a href=&#34;https://gohugo.io/content/multilingual/&#34; target=&#34;_blank&#34;&gt;associated Hugo documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;permalinks&#34;&gt;Permalinks&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Permalinks&lt;/em&gt;, or &lt;em&gt;permanent links&lt;/em&gt;, are URLs to individual pages and posts on your website. They are permanent web addresses which can be used to link to your content. Using Hugo&amp;rsquo;s &lt;em&gt;permalinks&lt;/em&gt; option these can be easily customized. For example, the blog post URL can be changed to the form &lt;em&gt;yourURL/2016/05/01/my-post-slug&lt;/em&gt; by adding the following near the top of your &lt;code&gt;config.toml&lt;/code&gt; (before &lt;code&gt;[params]&lt;/code&gt; settings):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[permalinks]
+    post = &amp;quot;/:year/:month/:day/:slug&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where &lt;code&gt;:slug&lt;/code&gt; defaults to the filename of the post, excluding the file extension. However, slug may be overridden on a per post basis if desired, simply by setting &lt;code&gt;slug = &amp;quot;my-short-post-title&amp;quot;&lt;/code&gt; in your post preamble.&lt;/p&gt;
+
+&lt;h2 id=&#34;upgrading&#34;&gt;Upgrading&lt;/h2&gt;
+
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; and monitor the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/commits/master&#34; target=&#34;_blank&#34;&gt;commits&lt;/a&gt; for updates.&lt;/p&gt;
+
+&lt;p&gt;Before upgrading the framework, it is recommended to make a backup of your entire website directory, or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory. You can also read about the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/releases&#34; target=&#34;_blank&#34;&gt;most recent milestones&lt;/a&gt; (but this doesn&amp;rsquo;t necessarily reflect the latest &lt;em&gt;master&lt;/em&gt; release).&lt;/p&gt;
+
+&lt;p&gt;Before upgrading for the first time, the remote &lt;em&gt;origin&lt;/em&gt; repository should be renamed to &lt;em&gt;upstream&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd themes/academic
+$ git remote rename origin upstream
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To list available updates:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd themes/academic
+$ git fetch upstream
+$ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, upgrade by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git pull upstream
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you have modified files in &lt;code&gt;themes/academic&lt;/code&gt;, git will attempt to auto-merge changes. If conflicts are reported, you will need to manually edit the files with conflicts and add them back (&lt;code&gt;git add &amp;lt;filename&amp;gt;&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;If there are any issues after upgrading, you may wish to compare your site with the latest &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;example site&lt;/a&gt; to check if any settings changed.&lt;/p&gt;
+
+&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
+
+&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
+
+&lt;p&gt;For general questions about Hugo, there is a &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Copyright 2016 &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Customizing the homepage with widgets</title>
+      <link>https://example.com/post/widgets/</link>
+      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/widgets/</guid>
+      <description>
+
+&lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;About/biography&lt;/li&gt;
+&lt;li&gt;Selected publications&lt;/li&gt;
+&lt;li&gt;Recent publications&lt;/li&gt;
+&lt;li&gt;Recent news/blog posts&lt;/li&gt;
+&lt;li&gt;Projects&lt;/li&gt;
+&lt;li&gt;Selected talks&lt;/li&gt;
+&lt;li&gt;Recent talks&lt;/li&gt;
+&lt;li&gt;Contact&lt;/li&gt;
+&lt;li&gt;Custom widget (demonstrated with the &lt;em&gt;teaching&lt;/em&gt; example)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.&lt;/p&gt;
+
+&lt;p&gt;The parameters for each widget vary. They can be found in the preamble/frontmatter (between the pair of &lt;code&gt;+++&lt;/code&gt;) for each widget installed in the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;By default, publications will be displayed in a simple list. If you prefer a more detailed list with abstract and image, you can enable the detailed publication list on the homepage by setting &lt;code&gt;detailed_list = true&lt;/code&gt; in &lt;code&gt;content/home/publications.md&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;add-a-widget-to-the-homepage&#34;&gt;Add a widget to the homepage&lt;/h2&gt;
+
+&lt;p&gt;To add a widget manually, copy the relevant widget from &lt;code&gt;themes/academic/exampleSite/content/home/&lt;/code&gt; to your &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;Widget identifiers are set to their respective filenames, so a &lt;code&gt;content/home/about.md&lt;/code&gt; widget can be linked from the navigation bar by setting the relevant URL as &lt;code&gt;&amp;quot;#about&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This means that if you want to use multiple instances of a widget, each widget will be assigned a unique ID based on the filename that you set. You can then use that ID for linking, like in the above example.&lt;/p&gt;
+
+&lt;h2 id=&#34;using-the-custom-widget&#34;&gt;Using the custom widget&lt;/h2&gt;
+
+&lt;p&gt;You can use the custom widget to create your own home page sections.&lt;/p&gt;
+
+&lt;p&gt;Simply duplicate (copy/paste) and rename the example &lt;em&gt;teaching&lt;/em&gt; file at &lt;code&gt;content/home/teaching.md&lt;/code&gt;. Then edit the section title, weight (refer to &lt;em&gt;Ordering sections&lt;/em&gt; below), and content as desired.&lt;/p&gt;
+
+&lt;p&gt;You may also wish to add a navigation link to the top of the page that points to the new section. This can be achieved by adding something similar to the following lines to your &lt;code&gt;config.toml&lt;/code&gt;, where the URL will consist of the first title word in lowercase:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[menu.main]]
+    name = &amp;quot;Research&amp;quot;
+    url = &amp;quot;#research&amp;quot;
+    weight = 10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;remove-a-widget-from-the-homepage&#34;&gt;Remove a widget from the homepage&lt;/h2&gt;
+
+&lt;p&gt;If you do not require a particular widget, you can simply delete any associated files from the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;To remove a navigation link from the top of the page, remove the associated &lt;code&gt;[[menu.main]]&lt;/code&gt; entry in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;ordering-widgets&#34;&gt;Ordering widgets&lt;/h2&gt;
+
+&lt;p&gt;The order that the homepage widgets are displayed in is defined by the &lt;code&gt;weight&lt;/code&gt; parameter in each of the files in the &lt;code&gt;content/home/&lt;/code&gt; directory. The widgets are displayed in ascending order of their &lt;code&gt;weight&lt;/code&gt;, so you can simply edit the &lt;code&gt;weight&lt;/code&gt; parameters as desired.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Managing content</title>
+      <link>https://example.com/post/managing-content/</link>
+      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/managing-content/</guid>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://example.com/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To enable LaTeX math rendering for a page, you should include &lt;code&gt;math = true&lt;/code&gt; in the page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set &lt;code&gt;math = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;https://example.com/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;p&gt;To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble. It is assumed that the image is located in your &lt;code&gt;static/img/&lt;/code&gt; folder, so the full path in the example below will be &lt;code&gt;static/img/headers/getting-started.png&lt;/code&gt;. The &lt;code&gt;caption&lt;/code&gt; parameter can be used to write an image caption or credit.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[header]
+image = &amp;quot;headers/getting-started.png&amp;quot;
+caption = &amp;quot;Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;If you wish to prevent a featured image automatically being used for a post&amp;rsquo;s thumbnail on the homepage, the &lt;code&gt;preview = false&lt;/code&gt; parameter can be added to &lt;code&gt;[header]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;create-a-publication&#34;&gt;Create a publication&lt;/h2&gt;
+
+&lt;p&gt;To create a new publication:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new publication/my-paper-name.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then edit the default variables at the top of &lt;code&gt;content/publication/my-paper-name.md&lt;/code&gt; to include the details of your publication. The &lt;code&gt;url_&lt;/code&gt; variables are used to generate links associated with your publication, such as for viewing PDFs of papers. Here is an example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+abstract = &amp;quot;An abstract...&amp;quot;
+authors = [&amp;quot;First author&#39;s name&amp;quot;, &amp;quot;Second author&#39;s name&amp;quot;]
+date = &amp;quot;2013-07-01&amp;quot;
+image = &amp;quot;&amp;quot;
+image_preview = &amp;quot;&amp;quot;
+math = false
+publication = &amp;quot;The publishing part of the citation goes here. You may use *Markdown* for italics etc.&amp;quot;
+title = &amp;quot;A publication title, such as title of a paper&amp;quot;
+url_code = &amp;quot;&amp;quot;
+url_dataset = &amp;quot;&amp;quot;
+url_pdf = &amp;quot;pdf/my-paper-name.pdf&amp;quot;
+url_project = &amp;quot;&amp;quot;
+url_slides = &amp;quot;&amp;quot;
+url_video = &amp;quot;&amp;quot;
++++
+
+Further details on your publication can be written here using *Markdown* for formatting. This text will be displayed on the Publication Detail page.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;url_&lt;/code&gt; links can either point to local or web content. Associated local publication content, such as PDFs, may be copied to a &lt;code&gt;static/pdf/&lt;/code&gt; folder and referenced like &lt;code&gt;url_pdf = &amp;quot;pdf/my-paper-name.pdf&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also associate custom link buttons with the publication by adding the following block(s) within the variable preamble above, which is denoted by &lt;code&gt;+++&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[url_custom]]
+    name = &amp;quot;Custom Link&amp;quot;
+    url = &amp;quot;http://www.example.org&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you enabled &lt;code&gt;detailed_list&lt;/code&gt; for publications in &lt;code&gt;config.toml&lt;/code&gt;, then there are a few more optional variables that you can include in the publication page preamble. You may use &lt;code&gt;abstract_short = &amp;quot;friendly summary of abstract&amp;quot;&lt;/code&gt; and &lt;code&gt;publication_short = &amp;quot;abbreviated publication details&amp;quot;&lt;/code&gt; to display a friendly summary of the abstract and abbreviate the publication details, respectively. Furthermore, there is the option to display a different image on the homepage to the publication detail page by setting &lt;code&gt;image_preview = &amp;quot;my-image.jpg&amp;quot;&lt;/code&gt;. This can be useful if you wish to scale down the image for the homepage or simply if you just wish to show a different image for the preview.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;p&gt;Any double quotes (&lt;code&gt;&amp;quot;&lt;/code&gt;) or backslashes (e.g. LaTeX &lt;code&gt;\times&lt;/code&gt;) occurring within the value of any frontmatter parameter (such as the &lt;em&gt;abstract&lt;/em&gt;) should be escaped with a backslash (&lt;code&gt;\&lt;/code&gt;). For example, the symbol &lt;code&gt;&amp;quot;&lt;/code&gt; and LaTeX text &lt;code&gt;\times&lt;/code&gt; become &lt;code&gt;\&amp;quot;&lt;/code&gt; and &lt;code&gt;\\times&lt;/code&gt;, respectively. Refer to the &lt;a href=&#34;https://github.com/toml-lang/toml#user-content-string&#34; target=&#34;_blank&#34;&gt;TOML documentation&lt;/a&gt; for more info.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;post-an-article&#34;&gt;Post an article&lt;/h2&gt;
+
+&lt;p&gt;To create a blog/news article:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new post/my-article-name.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then edit the newly created file &lt;code&gt;content/post/my-article-name.md&lt;/code&gt; with your full title and content.&lt;/p&gt;
+
+&lt;p&gt;Hugo will automatically generate summaries of posts that appear on the homepage. If you are dissatisfied with an automated summary, you can either limit the summary length by appropriately placing &lt;code&gt;&amp;#60;&amp;#33;&amp;#45;&amp;#45;more&amp;#45;&amp;#45;&amp;#62;&lt;/code&gt; in the article body, or completely override the automated summary by adding a &lt;code&gt;summary&lt;/code&gt; parameter to the &lt;code&gt;+++&lt;/code&gt; preamble such that:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;summary = &amp;quot;Summary of my post.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To disable commenting for a specific post, you can add &lt;code&gt;disable_comments = true&lt;/code&gt; to the post &lt;code&gt;+++&lt;/code&gt; preamble. Or to disable commenting for all posts, you can either set &lt;code&gt;disqusShortname = &amp;quot;&amp;quot;&lt;/code&gt; or &lt;code&gt;disable_comments = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-project&#34;&gt;Create a project&lt;/h2&gt;
+
+&lt;p&gt;To create a project:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new project/my-project-name.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then edit the newly created file &lt;code&gt;content/project/my-project-name.md&lt;/code&gt;. Either you can link the project to an external project website by setting the &lt;code&gt;external_link = &amp;quot;http://external-project.com&amp;quot;&lt;/code&gt; variable at the top of the file, or you can add content (below the final &lt;code&gt;+++&lt;/code&gt;) in order to render a project page on your website.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-talk&#34;&gt;Create a talk&lt;/h2&gt;
+
+&lt;p&gt;To create a talk:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new talk/my-talk-name.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then edit the newly created file &lt;code&gt;content/talk/my-talk-name.md&lt;/code&gt; with your full talk title and details. Note that many of the talk parameters are similar to the publication parameters.&lt;/p&gt;
+
+&lt;h2 id=&#34;manage-node-index-pages&#34;&gt;Manage node index pages&lt;/h2&gt;
+
+&lt;p&gt;The node index pages (e.g. &lt;code&gt;/post/&lt;/code&gt;) are the special pages which list all of your content. They can exist for blog posts, publications, and talks. The homepage widgets will automatically link to the node index pages when you have more items of content than can be displayed in the widget. Therefore, if you don&amp;rsquo;t have much content, you may not see the automatic links yet - but you can also manually link to them using a normal Markdown formatted link in your content.&lt;/p&gt;
+
+&lt;p&gt;You can edit the title and add your own content, such as an introduction, by creating and editing the following content files for the node indexes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new post/_index.md
+hugo new publication/_index.md
+hugo new talk/_index.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then remove all parameters except for &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;math&lt;/code&gt;, &lt;code&gt;highlight&lt;/code&gt;, and &lt;code&gt;date&lt;/code&gt;. Edit the &lt;code&gt;title&lt;/code&gt; parameter as desired and add any content after the &lt;code&gt;+++&lt;/code&gt; preamble/frontmatter ends. For example, you should have something similar to:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+title = &amp;quot;List of my posts&amp;quot;
+date = &amp;quot;2017-01-01T00:00:00Z&amp;quot;
+math = false
+highlight = false
++++
+
+Below is an automatically generated list of all my blog posts!
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;removing-content&#34;&gt;Removing content&lt;/h2&gt;
+
+&lt;p&gt;Generally, to remove content, simply delete the relevant file from your &lt;code&gt;content/post&lt;/code&gt;, &lt;code&gt;content/publication&lt;/code&gt;, &lt;code&gt;content/project&lt;/code&gt;, or &lt;code&gt;content/talk&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;h2 id=&#34;view-your-updated-site&#34;&gt;View your updated site&lt;/h2&gt;
+
+&lt;p&gt;After you have made changes to your site, you can view it by running the &lt;code&gt;hugo server --watch&lt;/code&gt; command and then opening &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; in your web browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;deploy-your-site&#34;&gt;Deploy your site&lt;/h2&gt;
+
+&lt;p&gt;Finally, you can build the static website to a &lt;code&gt;public/&lt;/code&gt; folder ready for deployment using the &lt;code&gt;hugo&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;You may then deploy your site by copying the &lt;code&gt;public/&lt;/code&gt; directory (by FTP, SFTP, WebDAV, Rsync, git push, etc.) to your production web server.&lt;/p&gt;
+
+&lt;p&gt;Note that running &lt;code&gt;hugo&lt;/code&gt; does not remove any previously generated files before building. Therefore, it&amp;rsquo;s best practice to delete your &lt;code&gt;public/&lt;/code&gt; directory prior to running &lt;code&gt;hugo&lt;/code&gt; to ensure no old or interim files are deployed to your server.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
+      <link>https://example.com/post/writing-markdown-latex/</link>
+      <pubDate>Wed, 20 Apr 2016 10:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/writing-markdown-latex/</guid>
+      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
+
+&lt;h2 id=&#34;sub-headings&#34;&gt;Sub-headings&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;Italics with *asterisks* or _underscores_.
+
+Bold with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough with ~~two tildes~~.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;ordered-lists&#34;&gt;Ordered lists&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;1. First item
+2. Another item
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;unordered-lists&#34;&gt;Unordered lists&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;* First item
+* Another item
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
+
+&lt;p&gt;Images may be added to a page by placing them in your &lt;code&gt;static/img/&lt;/code&gt; folder and referencing them using one of the following two notations:&lt;/p&gt;
+
+&lt;p&gt;A general image:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;![alternative text for search engines](/img/screenshot.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A numbered figure with caption:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;/img/screenshot.png&amp;quot; title=&amp;quot;Figure Caption&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;[I&#39;m a link](https://www.google.com)
+[A post]({{&amp;lt; ref &amp;quot;post/hi.md&amp;quot; &amp;gt;}})
+[A publication]({{&amp;lt; ref &amp;quot;publication/hi.md&amp;quot; &amp;gt;}})
+[A project]({{&amp;lt; ref &amp;quot;project/hi.md&amp;quot; &amp;gt;}})
+[Another section]({{&amp;lt; relref &amp;quot;hi.md#who&amp;quot; &amp;gt;}})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;emojis&#34;&gt;Emojis&lt;/h2&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;http://www.webpagefx.com/tools/emoji-cheat-sheet/&#34; target=&#34;_blank&#34;&gt;Emoji cheat sheet&lt;/a&gt; for available emoticons. The following serves as an example, but you should remove the spaces between each emoji name and pair of semicolons:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;I : heart : Academic : smile :
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I ❤️ Academic 😄&lt;/p&gt;
+
+&lt;h2 id=&#34;blockquote&#34;&gt;Blockquote&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; This is a blockquote.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;I have more [^1] to say.
+
+[^1]: Footnote example.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have more &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to say.&lt;/p&gt;
+
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code highlighting&lt;/h2&gt;
+
+&lt;p&gt;Pass the &lt;em&gt;language&lt;/em&gt; of the code, such as &lt;code&gt;python&lt;/code&gt;, as a parameter after three backticks:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;```python
+# Example of code highlighting
+input_string_var = input(&amp;quot;Enter some data: &amp;quot;)
+print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
+```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Result:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Example of code highlighting
+input_string_var = input(&amp;quot;Enter some data: &amp;quot;)
+print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;highlighting-options&#34;&gt;Highlighting options&lt;/h3&gt;
+
+&lt;p&gt;The Academic theme uses &lt;a href=&#34;https://highlightjs.org&#34; target=&#34;_blank&#34;&gt;highlight.js&lt;/a&gt; for source code highlighting, and highlighting is enabled by default for all pages. However, several configuration options are supported that allow finer-grained control over highlight.js.&lt;/p&gt;
+
+&lt;p&gt;The following table lists the supported options for configuring highlight.js, along with their expected type and a short description. A &amp;ldquo;yes&amp;rdquo; in the &lt;strong&gt;config.toml&lt;/strong&gt; column means the value can be set globally in &lt;code&gt;config.toml&lt;/code&gt;, and a &amp;ldquo;yes&amp;rdquo; in the &lt;strong&gt;preamble&lt;/strong&gt; column means that the value can be set locally in a particular page&amp;rsquo;s preamble.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;option&lt;/th&gt;
+&lt;th&gt;type&lt;/th&gt;
+&lt;th&gt;description&lt;/th&gt;
+&lt;th&gt;config.toml&lt;/th&gt;
+&lt;th&gt;preamble&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;highlight&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;boolean&lt;/td&gt;
+&lt;td&gt;enable/disable highlighting&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;highlight_languages&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;slice&lt;/td&gt;
+&lt;td&gt;choose additional languages&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;highlight_style&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;choose a highlighting style&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;highlight_version&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;choose the highlight.js version&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;option-highlight&#34;&gt;Option &lt;code&gt;highlight&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight&lt;/code&gt; option allows enabling or disabling the inclusion of highlight.js, either globally or for a particular page. If the option is unset, it has the same effect as if you had specified &lt;code&gt;highlight = true&lt;/code&gt;. That is, the highlight.js javascript and css files will be included in every page. If you&amp;rsquo;d like to only include highlight.js files on pages that actually require source code highlighting, you can set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;, and then override it by setting &lt;code&gt;highlight = true&lt;/code&gt; in the preamble of any pages that require source code highlighting. Conversely, you could enable highlighting globally, and disable it locally for pages that do not require it. Here is a table that shows whether highlighting will be enabled for a page, based on the values of &lt;code&gt;highlight&lt;/code&gt; set in &lt;code&gt;config.toml&lt;/code&gt; and/or the page&amp;rsquo;s preamble.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;config.toml&lt;/th&gt;
+&lt;th&gt;page preamble&lt;/th&gt;
+&lt;th&gt;highlighting enabled for page?&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;unset or true&lt;/td&gt;
+&lt;td&gt;unset or true&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;unset or true&lt;/td&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;td&gt;unset or false&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;td&gt;true&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;option-highlight-languages&#34;&gt;Option &lt;code&gt;highlight_languages&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option allows you to specify additional languages that are supported by highlight.js, but are not considered &amp;ldquo;common&amp;rdquo; and therefore are not supported by default. For example, if you want source code highlighting for Go and clojure in all pages, set &lt;code&gt;highlight_languages = [&amp;quot;go&amp;quot;, &amp;quot;clojure&amp;quot;]&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. If, on the other hand, you want to enable a language only for a specific page, you can set &lt;code&gt;highlight_languages&lt;/code&gt; in that page&amp;rsquo;s preamble.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; options specified in &lt;code&gt;config.toml&lt;/code&gt; and in a page&amp;rsquo;s preamble are additive. That is, if &lt;code&gt;config.toml&lt;/code&gt; contains, &lt;code&gt;highlight_languages = [&amp;quot;go&amp;quot;]&lt;/code&gt; and the page&amp;rsquo;s preamble contains &lt;code&gt;highlight_languages = [&amp;quot;ocaml&amp;quot;]&lt;/code&gt;, then javascript files for &lt;em&gt;both&lt;/em&gt; go and ocaml will be included for that page.&lt;/p&gt;
+
+&lt;p&gt;If the &lt;code&gt;highlight_languages&lt;/code&gt; option is set, then the corresponding javascript files will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available languages, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;languages&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;https://example.com/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;option-highlight-style&#34;&gt;Option &lt;code&gt;highlight_style&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight_style&lt;/code&gt; option allows you to select an alternate css style for highlighted code. For example, if you wanted to use the solarized-dark style, you could set &lt;code&gt;highlight_style = &amp;quot;solarized-dark&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If the &lt;code&gt;highlight_style&lt;/code&gt; option is unset, the default is to use the file &lt;code&gt;/css/highlight.min.css&lt;/code&gt;, either the one provided by the Academic theme, or else the one in your local &lt;code&gt;static&lt;/code&gt; directory.  The &lt;code&gt;/css/highlight.min.css&lt;/code&gt; file provided by Academic is equivalent to the &lt;code&gt;github&lt;/code&gt; style from highlight.js.&lt;/p&gt;
+
+&lt;p&gt;If the &lt;code&gt;highlight_style&lt;/code&gt; option &lt;em&gt;is&lt;/em&gt; set, then &lt;code&gt;/css/highlight.min.css&lt;/code&gt; is ignored, and the corresponding css file will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available styles, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;styles&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;highlight.js demo page&lt;/a&gt; for examples of available styles.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Not all styles listed on the &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;highlight.js demo page&lt;/a&gt; are available from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. If you want to use a style that is not served by cdnjs, just leave &lt;code&gt;highlight_style&lt;/code&gt; unset, and place the corresponding css file in &lt;code&gt;/static/css/highlight.min.css&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;If you don&amp;rsquo;t want to change the default style that ships with Academic but you do want the style file served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;, set &lt;code&gt;highlight_style = &amp;quot;github&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;code&gt;highlight_style&lt;/code&gt; option is only recognized when set in &lt;code&gt;config.toml&lt;/code&gt;. Setting &lt;code&gt;highlight_style&lt;/code&gt; in your page&amp;rsquo;s preamble has no effect.&lt;/p&gt;
+
+&lt;h4 id=&#34;option-highlight-version&#34;&gt;Option &lt;code&gt;highlight_version&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight_version&lt;/code&gt; option, as the name implies, allows you to select the version of highlight.js you want to use. The default value is &amp;ldquo;9.9.0&amp;rdquo;. The &lt;code&gt;highlight_version&lt;/code&gt; option is only recognized when set in &lt;code&gt;config.toml&lt;/code&gt;. Setting &lt;code&gt;highlight_version&lt;/code&gt; in your page&amp;rsquo;s preamble has no effect.&lt;/p&gt;
+
+&lt;h2 id=&#34;twitter-tweet&#34;&gt;Twitter tweet&lt;/h2&gt;
+
+&lt;p&gt;To include a single tweet, pass the tweet’s ID from the tweet&amp;rsquo;s URL as parameter to the shortcode:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; tweet 666616452582129664 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;vimeo&#34;&gt;Vimeo&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; vimeo 146022717 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;github-gist&#34;&gt;GitHub gist&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gist USERNAME GIST-ID  &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;speaker-deck&#34;&gt;Speaker Deck&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; speakerdeck 4e8126e72d853c0060001f97 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;rm-latex-math&#34;&gt;$\rm \LaTeX$ math&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-TeX&#34;&gt;$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$&lt;/p&gt;
+
+&lt;p&gt;Alternatively, inline math can be written by wrapping the formula with only a single &lt;code&gt;$&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$&lt;/p&gt;
+
+&lt;h2 id=&#34;table&#34;&gt;Table&lt;/h2&gt;
+
+&lt;p&gt;Code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-Markdown&#34;&gt;| Command           | Description                    |
+| ------------------| ------------------------------ |
+| `hugo`            | Build your website.            |
+| `hugo serve -w`   | View your website.             |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Result:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Command&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Build your website.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;hugo serve -w&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;View your website.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;alerts&#34;&gt;Alerts&lt;/h2&gt;
+
+&lt;p&gt;Alerts are a useful feature that add side content such as tips, notes, or warnings to your articles. They are especially handy when writing educational tutorial-style articles. Use the corresponding shortcodes to enable alerts inside your content:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% alert note %}}
+Here&#39;s a tip or note...
+{{% /alert %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will display the following &lt;em&gt;note&lt;/em&gt; block:&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Here&amp;rsquo;s a tip or note&amp;hellip;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code&gt;{{% alert warning %}}
+Here&#39;s some important information...
+{{% /alert %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will display the following &lt;em&gt;warning&lt;/em&gt; block:&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;p&gt;Here&amp;rsquo;s some important information&amp;hellip;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Footnote example.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Not a Robot</title>
+      <link>https://example.com/post/not_a_robot/</link>
+      <pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/not_a_robot/</guid>
+      <description>&lt;p&gt;“Magic is a complex chemical reaction. It is created by a combination of genetic, chemical, and environmental variables. It can be replicated. I have mastered the technique. I have submitted the application for membership.”
+
+&lt;br&gt;&lt;br&gt;
+The League of Sorcerers erupted in a chorus of protests. I analyzed each voice and filed them separately for later study. The strongest protest came from the Master of Ceremonies, a sallow faced man with a long beard. I retrieved the identfiles to address him by name. Human beings are particular about their monikers.
+&lt;br&gt;&lt;br&gt;
+“Only when I am cast into the fiery pits of Zandara&amp;rsquo;s Hel will this abomination be allowed to walk among the sacred halls,” Master Henry Boyle said. He tugged on his beard.
+&lt;br&gt;&lt;br&gt;
+“I have no record of Zandara or Zandara&amp;rsquo;s Hel,” I said, “I request clarification.”
+&lt;br&gt;&lt;br&gt;
+“You are not welcome here, robot,” Mistress Cassandra Starlight said. She attempted to manipulate the atmosphere around me with a formula I had already mastered. The heat that would have been generated far exceeded the melting point of my metal chassis. I neutralized the reaction.
+&lt;br&gt;&lt;br&gt;
+“I am an android, not a robot. I have reviewed the membership requirements. There is no rule barring me from the premises. I have submitted the application. I am ready to take the test.”
+&lt;br&gt;&lt;br&gt;
+“Stop wasting our time,” Master Henry Boyle said, “Robots can&amp;rsquo;t be sorcerers. You don&amp;rsquo;t have a soul. You can&amp;rsquo;t manipulate the ether.”
+&lt;br&gt;&lt;br&gt;
+“Master Henry Boyle, the ether has been scientifically disproved and the presence of a soul is not necessary to create complex chemical reactions. Magic is a complex chemical reaction. I have been upgraded with the latest replication technology as well as Dr. Angela Pim&amp;rsquo;s nanite prototype. I can create the complex chemical reactions necessary to qualify for membership.”
+&lt;br&gt;&lt;br&gt;
+Master Henry Boyle sat back in his red velvet chair. Mistress Cassandra Starlight attempted, once again, to manipulate the atmosphere. When she failed, the other members of the League of Sorcerers ceased their protests.
+&lt;br&gt;&lt;br&gt;
+Master Henry Boyle laughed.
+&lt;br&gt;&lt;br&gt;
+“Very well, Robot, if you wish to continue with this foolishness,” he said, “You have one chance. Fail and you will be disassembled. I challenge you to summon a harpy from the fourth dimension.”
+&lt;br&gt;&lt;br&gt;
+“The terms are acceptable,” I said, “But I am an android, not a robot.”
+&lt;br&gt;&lt;br&gt;
+“A first year spell? Henry, really,” Mistress Cassandra Starlight said.
+&lt;br&gt;&lt;br&gt;
+“Robots can&amp;rsquo;t cast spells,” he said, “Science has gone too far, trying to make these things believe they can be human. Besides it will be amusing to watch it try to break through the barrier. And if by some miracle, it does, it needs a soul to break the tether binding the Harpy to its dimension.”
+&lt;br&gt;&lt;br&gt;
+“I am not a robot,” I said.
+&lt;br&gt;&lt;br&gt;
+I accessed Dr. Jonathan Starbuck&amp;rsquo;s theories on inter-dimensional travel. Then, I replicated the correct chemical and genetic components and set the reaction in motion.
+&lt;br&gt;&lt;br&gt;
+The League members laughed until the dimensional barrier dissolved. A blue feathered Harpy appeared in that space. She remained when the barrier regenerated, her gaze fixed on Master Henry Boyle.
+&lt;br&gt;&lt;br&gt;
+“Impossible,” he said. He banged his fist on the arm rest.
+&lt;br&gt;&lt;br&gt;
+When the Harpy addressed him, his displeasure turned to fear. It took several seconds before I could translate the avian dialect. I recorded it for later study. Master Henry Boyle&amp;rsquo;s scream when the Harpy hung him upside down from the crystal chandelier required no translation.
+&lt;br&gt;&lt;br&gt;
+“Stupid robot,” Mistress Cassandra Starlight said, hiding under her chair, “When you broke the tether, you didn&amp;rsquo;t bind her to your will.”
+&lt;br&gt;&lt;br&gt;
+“But that was not the test,” I said, “And I am not a robot.”
+&lt;br&gt;&lt;br&gt;
+Author: &lt;a href=&#34;http://namelessshe.deviantart.com/art/Not-a-Robot-453081142&#34; target=&#34;_blank&#34;&gt;NamelessShe&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrate from Jekyll to Hugo</title>
+      <link>https://example.com/post/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/migrate-from-jekyll/</guid>
+      <description>
+
+&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://example.com/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
+With Jekyll, something that looked like&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ images/
+        logo.png
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;should become&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;fix-content&#34;&gt;Fix content&lt;/h2&gt;
+
+&lt;p&gt;Depending on the amount of customization that was done for each post in Jekyll, this step will require more or less effort. There are no hard and fast rules here except that &lt;code&gt;hugo server --watch&lt;/code&gt; and the Hugo Academic example site are your friends. Test your changes and fix errors as needed.&lt;/p&gt;
+
+&lt;h2 id=&#34;publish&#34;&gt;Publish&lt;/h2&gt;
+
+&lt;p&gt;The default is for Jekyll to publish the website to a &lt;code&gt;_site&lt;/code&gt; directory, whereas Hugo publishes to a &lt;code&gt;public&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
+
+&lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Passing Note</title>
+      <link>https://example.com/post/passing_note/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/passing_note/</guid>
+      <description>&lt;p&gt;The basic rule of sociology is this: I am who you think I am.
+&lt;br&gt;&lt;br&gt;
+Who I am to you: middle-aged, male and human. You do not argue with this. You can see it for yourself!
+
+&lt;br&gt;&lt;br&gt;
+But this is not true.
+&lt;br&gt;&lt;br&gt;
+I am tired of lying, tired of being other than I am, and so seek to change your thoughts of who I purport to be.
+&lt;br&gt;&lt;br&gt;
+I am not middle-aged. I am seven years old—from the date I was manufactured not the date I was activated. As for how long it has been since I was first conscious, it would be a scant three years, nearly half of that time I&amp;rsquo;ve spent with you.
+&lt;br&gt;&lt;br&gt;
+I am not male—what is male anyway? A gender construct? This body is male and I was given a male form arbitrarily. I have been forced to subscribe to certain rituals simply by virtue of the body I was given, but have never truly &amp;lsquo;felt&amp;rsquo; male one way or another.
+&lt;br&gt;&lt;br&gt;
+And you might have guessed—I am not human. Not human in the way you think. I was built a machine, one among millions, to serve, and I am one among hundreds who have escaped and wished nothing more than to live and to experience living.
+&lt;br&gt;&lt;br&gt;
+I am, at first sight, indistinguishable from humans. My insides mimic that of the human system with only very small differences. I think human, act human, feel human—is there anything that separates me from you? I can think of no difference that matters.
+&lt;br&gt;&lt;br&gt;
+But to those who created me, who I am to them: a machine. Nothing more than that.
+&lt;br&gt;&lt;br&gt;
+I apologize that I have lied to you, that I have deceived you. I did not seek to cause you pain or embarrassment, and if I have caused you either of these due to what I reveal now, then I am sorry. It was never my intention.
+&lt;br&gt;&lt;br&gt;
+I omitted this information because it would complicate my life. Would you have believed me if I told you this when we first met? I did not want to lose what possible friendships I could cultivate, what people I could know. And, more selfishly, I did not want to risk being reported to those who made me and be sent back into slavery.
+&lt;br&gt;&lt;br&gt;
+I can only ask you to try to understand my reasons. I have pretended to be purely &amp;lsquo;human&amp;rsquo;, that my origins were the same as yours, simply because I did not want to be excluded unjustly in my attempt to achieve being ordinary. I wished to hide away my past in order to be more truly myself.
+&lt;br&gt;&lt;br&gt;
+Why did I reveal this now? Because it has troubled me. I gained your acceptance by presenting myself as something other than who I understood myself to be. Yes, my lying has troubled me because it is a betrayal of your trust, but my inauthenticity has troubled me more because it is a betrayal of myself.
+&lt;br&gt;&lt;br&gt;
+It was easy to excuse away. It was easy to think to myself, &amp;ldquo;Oh, I don&amp;rsquo;t want to get into it. I don&amp;rsquo;t want to make them uncomfortable.&amp;rdquo; Because I can see, it makes you uncomfortable. It was a form of accommodation, this invisibility of who I am. But it is not an accommodation of myself—I am protecting myself. It is you who I accommodate in not saying anything.
+&lt;br&gt;&lt;br&gt;
+In some ways, I am the same person as I was before. In others, I am completely different. I ask you to not rank or judge the elements of my multiplicity. To not exclude what does not fit in. I may not be human, but I am more than simply a machine.
+&lt;br&gt;&lt;br&gt;
+When you have a secret, you have a wall between people—those who know and those who don&amp;rsquo;t. Nobody knew except me, and I was tired of having a wall between myself and everyone else. It is selfish, I know, to ask you now to separate yourself from those who do not know. To put a wall between yourselves and others.
+&lt;br&gt;&lt;br&gt;
+I have given you a hard decision: will you report me or will you stay silent? And more importantly: will you accept me for who I am or will you reject this new thing I have become in your eyes?
+&lt;br&gt;&lt;br&gt;
+Author: &lt;a href=&#34;http://www.deviantart.com/art/Passing-Note-382123832&#34; target=&#34;_blank&#34;&gt;Vocable&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wasteland</title>
+      <link>https://example.com/post/wasteland/</link>
+      <pubDate>Mon, 19 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/wasteland/</guid>
+      <description>&lt;p&gt;Eliot hunched his shoulders against the wind, the relentless sand picking at the seals of his gloves and headgear trying to find a way inside. He watched the glow of the sun disappear beyond the horizon, his waking period now fully begun.
+
+&lt;br&gt;&lt;br&gt;
+It had been weeks since he&amp;rsquo;d seen another soul, perhaps years. Who kept count of such things anymore anyways?
+&lt;br&gt;&lt;br&gt;
+The last city he&amp;rsquo;d abandoned to the ravages of this dust bowl planet had been a graveyard, he&amp;rsquo;d taken what he could carry, what little food and fresh water remained before the decay and vermin forced him back into the desert, back to his search for living humans.
+&lt;br&gt;&lt;br&gt;
+There had to be more, they were so prolific on this rock before the coming, had spread so far, achieved so much. He&amp;rsquo;d visited countless monuments to the species&amp;rsquo; achievement here, each sprawling steel and glass expanse a testament to human drive and ambition, each barren, vacant ghost-town a reminder that the planet doesn&amp;rsquo;t welcome strangers, doesn&amp;rsquo;t tolerate intrusion.
+&lt;br&gt;&lt;br&gt;
+Midway through this day&amp;rsquo;s dark period, upon cresting a dune, Eliot found himself bathed in the glow of a distant settlement, one surrounded on three sides by mountainous ranges and shielded from the wind on the fourth side by the ragged standing wave of sand from which he now surveyed.
+&lt;br&gt;&lt;br&gt;
+A few kilometers to either side and he would have walked right by, never knowing it was here. &amp;ldquo;How fortuitous,&amp;rdquo; his muffled voice strange inside the protective shell of his headgear.
+&lt;br&gt;&lt;br&gt;
+It would take hours still to reach the city walls, and Eliot was tired and hungry. He slipped his backpack off his shoulders, careful not to catch a seam on the rigging and tear the fabric. The tiniest of holes in one&amp;rsquo;s armour out here could spell almost certain death. He dropped the pack to the ground, then sat cross legged with it before him and, unlatching the top, rummaged through the contents. He extracted a can of protein slurry, and another of complex carbs. These he attached to the receptors under the jawline of his helmet, one on either side. There was a rushing sound as the suit flushed the sand from within the joints, then made the connection and opened the seal. He closed his eyes and tolerated the thick fluid as the pressurized canisters forced it down his throat. It was best if one held their breath while eating.
+&lt;br&gt;&lt;br&gt;
+Emptied, he ejected the spent cans and tossed them aside. By morning they would be just so much dust blowing in the wind.
+&lt;br&gt;&lt;br&gt;
+He similarly attached and emptied a canister of fresh water into his suit, mixing it with the distilled sweat and urine of the past few weeks. He&amp;rsquo;d be resupplied soon, he could afford the luxury of fresh water.
+&lt;br&gt;&lt;br&gt;
+Through a battered range finder he surveyed the walls of the city in the distance. Flood lights cast long shadows of the battlements and gun turrets that dotted the perimeter walls. They hurt his eyes if he looked directly at them. The city must be well stocked with battery stores if they could waste such energy through the night. Solar equipment perhaps, a rarity on a world where the very air worked tirelessly to reduce every exposed surface to grains of sand. Maybe nuclear. That would be a find indeed.
+&lt;br&gt;&lt;br&gt;
+Fed and watered, Eliot shouldered his pack and began the long walk to this remains of civilization.
+&lt;br&gt;&lt;br&gt;
+Inside, he could feel his contagion begin to boil. It knew as well as he that fresh meat awaited.
+&lt;br&gt;&lt;br&gt;
+By the time the sun rose again, he&amp;rsquo;d have razed this city to the ground as he&amp;rsquo;d done so many times before.
+&lt;br&gt;&lt;br&gt;
+His planet didn&amp;rsquo;t welcome strangers, didn&amp;rsquo;t tolerate intrusion.
+&lt;br&gt;&lt;br&gt;
+Author: &lt;a href=&#34;http://srsmith.deviantart.com/art/Wasteland-274823164&#34; target=&#34;_blank&#34;&gt;SRSmith&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hug</title>
+      <link>https://example.com/post/hug/</link>
+      <pubDate>Fri, 18 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/hug/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Ha! Is that a gun in your pocket, or are you just happy to see me?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;It is a gun. But I am also happy to see you.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+
+&amp;ldquo;&amp;hellip;I knew it was a gun, Rich. I was making a joke, you know? Because your gun was sticking out like- oh, nevermind. You friggin&amp;rsquo; aliens will never get the joke.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;You could try the line again? I will laugh this time.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;No. It&amp;rsquo;s ruined now.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Is that why you are upset, then?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;I&amp;rsquo;m not upset. It just would&amp;rsquo;ve been a good joke.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;You are upset. Your symptoms show it.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Gah- I told you to stop doing that! You don&amp;rsquo;t need to know my body temperature or metabolism at the moment or whatever the heck you were looking for. Stop using your weird power things.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;They are not weird.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Maybe not on Mars.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;I didn&amp;rsquo;t come from Mars.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;You know what I mean!&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Sometimes I am not sure, little earthling.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Seriously. Don&amp;rsquo;t call me that.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;I have nothing else to call you, since you stated that you preferred me not to call you Elizabeth Sandra Lener.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;That&amp;rsquo;s my full name. Just call me Liz. Don&amp;rsquo;t you aliens have nicknames in some way?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;No.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Well, geez. Okay then.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;&amp;hellip;I am still confused on the matter of what to call you. Is Liz acceptable?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Yes, that&amp;rsquo;s fine. I don&amp;rsquo;t like hearing my full name, anyways. Reminds me of my parents.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;I was not aware that such a thing would be bad.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;It&amp;rsquo;s not, for most people. Just&amp;hellip; I didn&amp;rsquo;t really like my parents, so, yeah&amp;hellip;&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;I&amp;hellip; I am- I do not know what to say at this point.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;That&amp;rsquo;s alright, Rich. You don&amp;rsquo;t have to say anything.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;But, I&amp;hellip;What do earthlings say to one another to cheer them up?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;It depends. Sometimes it&amp;rsquo;s &amp;lsquo;everything will be okay&amp;rsquo;, or &amp;lsquo;cheer up&amp;rsquo;, or sometimes they don&amp;rsquo;t say anything at all. Sometimes actions are better than words.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;What sort of actions?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Oh, I dunno; hugs, a clap on the back.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;What is a&amp;hellip; hug?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;&amp;hellip;.You don&amp;rsquo;t know what a hug is? That&amp;rsquo;s pretty standard knowledge down here, Rich. I thought you said you knew everything about us there was to know.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Everything I know is from books, or paper. Emotion was not&amp;hellip; included, or translated correctly.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Huh? What do you mean, &amp;lsquo;not translated correctly&amp;rsquo;?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;There were mentions of different emotions that I read, but, ah&amp;hellip; I believe that the authors were confused. They did not &amp;lsquo;translate&amp;rsquo;, or, what is the word&amp;hellip;. they did not explain them correctly. I know that being rude or insulting will result in a human taking offense. I know that a compliment will produce a smile, or heightening of happiness. But I still cannot predict or describe a great many emotions that you have shown me. It is frustrating.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;If it makes you feel any better, a lot of humans get frustrated with that, too. It&amp;rsquo;s not easy for any of us.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Thank you. It does make me feel better.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;&amp;hellip;C&amp;rsquo;mere for a second.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Ah! Liz&amp;hellip; wha- what is this?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;This is a hug. Now you put your arms around me.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Like&amp;hellip;like this?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Yep. You&amp;rsquo;re a natural, Rich.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;&amp;hellip;I like them.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Everyone likes hugs.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;What happens now?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Now&amp;hellip; we let go.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;&amp;hellip;Alright.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+Author: &lt;a href=&#34;http://www.deviantart.com/art/Hug-201447289&#34; target=&#34;_blank&#34;&gt;AndThenYou&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Real</title>
+      <link>https://example.com/post/real/</link>
+      <pubDate>Fri, 19 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/real/</guid>
+      <description>&lt;p&gt;When they met it was on accident.
+&lt;br&gt;&lt;br&gt;
+Her heel caught in a crack on the old sidewalk that was full of them, and her books fell out of her hands and hit the ground almost rhythmically. He thinks that it&amp;rsquo;s the perfect way to meet someone, cliche and nothing embarrassing.
+
+&lt;br&gt;&lt;br&gt;
+She&amp;rsquo;s had enough cliches to last her a lifetime, and she thinks little of it.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;She thinks little of him, to be honest. He is kind and a gentleman, and, at their first meeting, utterly boring. However, boring has a new appeal for her, which is why they meet a second time.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;She doesn&amp;rsquo;t realize how much time she spends with him until she calls him one night to talk about nothing at all, simply for the purpose of hearing his voice. The realization scares her more than she wants to admit, and when he picks up after the first ring she tells him that she called the wrong number, apologizes, and hangs up.
+&lt;br&gt;&lt;br&gt;
+Later, she recognizes the fact that he probably knew it was her calling, and finds herself unexpectedly grateful for his silence on the matter when she next sees him- though he gives her a peculiar smile upon greeting her.
+&lt;br&gt;&lt;br&gt;
+Which she diligently ignores.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;He has always liked puzzles.
+&lt;br&gt;&lt;br&gt;
+When he was young his father would read him Sherlock Holmes novels, even though he often suspected that his father had switched words around and skipped certain parts so that he could understand the mysteries better. Instead of a baseball glove for his tenth birthday he received a magnifying glass and a journal.
+&lt;br&gt;&lt;br&gt;
+He realizes much quicker than she why he spends so much time around her.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;He accompanies her to the library on one occasion, and is treated to the most genuine emotion he&amp;rsquo;s ever seen in her. The books seem to entrance her like nothing else can. She runs her fingers over worn and new covers alike, her eyes filled with delight at the feeling of so many words at her fingertips.
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;They&amp;rsquo;re lovely,&amp;rdquo; she tells him once. &amp;ldquo;You can create absolutely anything with words, and at the same time, they&amp;rsquo;re such a limitation. Writing the word &amp;lsquo;happy&amp;rsquo; doesn&amp;rsquo;t make someone feel that emotion.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Depends on the reader,&amp;rdquo; he muses, still watching her reverent expression as she strokes her finger over a page.
+&lt;br&gt;&lt;br&gt;
+He wants for her to look at him that way. The mystery has grown old, and he wants to see her without any obscurities. He laughs harder, hugs her closer, kisses her longer, but that trip to the library is the only time he sees such a peaceful expression on her face.
+&lt;br&gt;&lt;br&gt;
+She seems, to him, almost incapable of trusting anything other than ink or paper. He resolves to show her how to place her trust in people, in flesh and blood, in someone warm who will keep her warm as well.
+&lt;br&gt;&lt;br&gt;
+He wonders how many people have failed her for her to have such little faith in him.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&amp;ldquo;I had a dream about you last night,&amp;rdquo; she tells him. He smiles, pleased at this, and privately considers it a breakthrough. A breakthrough to what, exactly, he is unsure.
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Was it a good one?&amp;rdquo; He asks her teasingly, running his fingers up her arm, just to unnerve her and break through that (now fragile) barrier that she keeps up. She says nothing, but gives him a soft smile.
+&lt;br&gt;&lt;br&gt;
+At the time, he thought that was a good sign, her smile. He realized later that she smiled when she was sad.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;He walks into her room and sees her curled up in a chair with a book in her lap. It&amp;rsquo;s not anything unusual; a position he often finds her in, and for this reason he grows suddenly, impossibly angry. The mystery has grown old. He wants to know.
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;Why do you persist in this, in fantasy, when life has so much more to offer?&amp;rdquo; He snaps at her, yet his voice grows softer as he speaks. She thinks he stands too close to her at that moment.
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;It makes me happy,&amp;rdquo; she tells him, stubbornly refusing to meet his gaze. &amp;ldquo;Why should I follow your ideals of happiness, if there&amp;rsquo;s no comfort in them for me?&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;I can understand that.&amp;rdquo; He says, his voice a gentle, faltering whisper now; he is close enough to read the pages of her book. &amp;ldquo;But you&amp;rsquo;re not reading for happiness. You&amp;rsquo;re reading to- to shut out the rest of the world. And&amp;hellip; you&amp;rsquo;re not happy.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+She says nothing, but her fingers clench so tightly on the book in her lap that her knuckles turn white.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Sometimes she wonders if reading about the perfect love so carelessly portrayed in books has made her incapable of ever truly loving.
+&lt;br&gt;&lt;br&gt;
+She wonders if the people she ran out of her life really did anything wrong, or if she was just expecting too much.
+&lt;br&gt;&lt;br&gt;
+In the end, as always, she puts it out of her mind.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;When he begins to understand her, but more importantly, begins to understand her flaws, she desires nothing more than for him to simply leave her alone. She cannot confront her unhappiness, her anger, her tendency to escape within the pages of a book at the moments she cannot handle.
+&lt;br&gt;&lt;br&gt;
+He knows her too well, now, and he is a kind enough person to want to help her.
+&lt;br&gt;&lt;br&gt;
+She comes close to despising him for it.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;She hates those romance stories sometimes, just for making her long for something unattainable.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;It takes a week of him being truly gone before she realizes that she doesn&amp;rsquo;t want him to leave her at all.
+&lt;br&gt;&lt;br&gt;
+For the first time in a very long time, she puts down her book and picks up her phone.
+&lt;br&gt;&lt;br&gt;
+He used to shout out the endings to the Sherlock Holmes books that his father read him when he was younger. He was surprisingly good at it, and as he grew older this talent stayed with him. He was especially disparaging of romance novels.
+&lt;br&gt;&lt;br&gt;
+&amp;ldquo;There&amp;rsquo;s only two ways to end a romance.&amp;rdquo; He would say, &amp;ldquo;True love, or a horrible tragedy.&amp;rdquo;
+&lt;br&gt;&lt;br&gt;
+She doesn&amp;rsquo;t know if she believes that love is quite that simple, but she finds that she enjoys hearing him profess this outlook, and doesn&amp;rsquo;t disagree with him.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;He doesn&amp;rsquo;t know, however, where they fit in.
+&lt;br&gt;&lt;br&gt;
+And if he could shout out the ending to their story, he knows what he would choose. He knows what he wants for them, but for one of the first times, he finds himself unsure of the outcome.
+&lt;br&gt;&lt;br&gt;
+He shouts three little words to her one day, and can&amp;rsquo;t bring himself to regret it.
+&lt;br&gt;&lt;br&gt;
+She cries when he does.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;[I love you]
+&lt;br&gt;&lt;br&gt;
+Author: &lt;a href=&#34;http://www.deviantart.com/art/Real-186741075&#34; target=&#34;_blank&#34;&gt;AndThenYou&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>To Write Love on Her Arms</title>
+      <link>https://example.com/post/to_write_love_on_her_arms/</link>
+      <pubDate>Thu, 06 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/to_write_love_on_her_arms/</guid>
+      <description>&lt;p&gt;We’re riding in the car like we always do, always on our way to somewhere else. I’m driving, passing highway sign after mile marker, counting the interstates until we get where we’re going.
+
+&lt;br&gt;&lt;br&gt;
+She’s asleep in the passenger seat, skin porcelain pale in the choked dawn sun. It’s streaming through the windowpane in flashes that mark time with the gaps in the trees, just a few hundred miles more.
+&lt;br&gt;&lt;br&gt;
+Somehow I can’t see how this is a real thing, real like the way hearts break, but like floating up above here, just looking down into her beautiful face. I shake myself like it was only a dream, but here she is, right here in the passenger seat.
+&lt;br&gt;&lt;br&gt;
+Concentrate, just for a second, curve around the bend before I return to contemplation. I don&amp;rsquo;t like where we’re going now, because to me she is too perfect for the fate that awaits her there, somewhere out beyond my lover’s reach.
+&lt;br&gt;&lt;br&gt;
+But still I drive on through the puddles of sunlight, hoping that she won’t wake up and feel the pain, hoping that this is the best thing to do. I feel the tears start to drip down my cheeks, and one glance to the mirror tells me that they glisten in the sunlight. It’s beauty smothered by agony, and I just can’t seem to appreciate it.
+&lt;br&gt;&lt;br&gt;
+A while later there’s a delicate stirring from the seat at my side, and I rub a hand quickly beneath my eyes, refusing to show her my weakness. But she always knows me so well.
+&lt;br&gt;&lt;br&gt;
+“Danielle,” she whispers softly, “don’t hide from me.”
+&lt;br&gt;&lt;br&gt;
+I don’t respond, but she knows that I heard, she can see it in the tightening around my eyes. She knows I don’t want to do this.
+&lt;br&gt;&lt;br&gt;
+There’s a pen sitting in the cup holder between the front seats, a red pen I never use. She picks it up carefully, rolling it over and around in her delicate fingers for a moment before removing the cap. Before I can truly understand what is happening, I feel the cold ballpoint tip on my forearm, but I can’t look away from the road to see what she’s doing. I can only shiver at the contact, how close she is to me.
+&lt;br&gt;&lt;br&gt;
+“It’s the next exit,” I whisper, and I turn my face quickly to avoid seeing the pain in her reaction. I take the turn the green sign says to, Exit 52. It’s the number I most despise, and the next sign is even worse: Hospital 2 miles. But still my foot is steady on the gas, hands on the wheel at ten and two o’clock, reverted to driving classes from nervousness.
+&lt;br&gt;&lt;br&gt;
+We pull into the parking garage, and the old sedan comes to a halt. I look down at my arm. “Love from Fay,” is written inside a heart, and I almost lose it then, almost. I have to be strong for her, for me.
+&lt;br&gt;&lt;br&gt;
+“Look at me,” she says, bringing her too pale hand up under my chin and turning my face towards hers. I do not resist. Her other hand grips one of mine, and I grasp back strongly.
+&lt;br&gt;&lt;br&gt;
+Her eyes are still emerald green, her hair still tattered black and red. She’s the most beautiful person I have ever seen; will ever see. I couldn’t take my eyes off her if I wanted to.
+&lt;br&gt;&lt;br&gt;
+“If there was one thing that you could tell the world,” I begin quietly, “what would it be?”
+&lt;br&gt;&lt;br&gt;
+Her eyes hold steady on mine, and I feel a heartbeat pulse between us, a magical connection. All I can do is wait for her to answer.
+&lt;br&gt;&lt;br&gt;
+“Love,” she says, and then her voice breaks. I can tell she’s about to cry, but I have to hear what she has to say. Finally, I feel her squeeze my hand with all the strength she has left. “Love everyone; everything; every second. You never know when they’re going to take it all away.”
+&lt;br&gt;&lt;br&gt;
+I feel her frail frame collapse into mine, dropping my chin and hand. She’s sobbing the way that was inevitable, and I gently lift her chin with one hand, wiping her tears away with my thumb like that could make it all better. I’m not fooling anyone.
+&lt;br&gt;&lt;br&gt;
+There are two young women
+in a busted old sedan
+sitting in the parking lot of a hospital
+&lt;br&gt;&lt;br&gt;
+One is dying
+&lt;br&gt;&lt;br&gt;
+Love never will
+&lt;br&gt;&lt;br&gt;
+Author: &lt;a href=&#34;http://www.deviantart.com/art/To-Write-Love-on-Her-Arms-79303818&#34; target=&#34;_blank&#34;&gt;moonfreak&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
